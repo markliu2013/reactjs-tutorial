@@ -24,7 +24,8 @@
     "style-loader": "*",
     "url-loader": "*",
     "webpack": "*",
-    "webpack-dev-server": "*"
+    "webpack-dev-server": "*",
+    "glob": "*"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",

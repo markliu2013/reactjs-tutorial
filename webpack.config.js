@@ -1,11 +1,18 @@
 import path from 'path';
+import glob from 'glob';
+
+let entry = {};
+const files = glob.sync("js/**/*.js");
+files.map(file=>{
+	entry[file] = path.resolve(__dirname, file);
+});
 
 module.exports = {
 	mode: 'development',
-	entry: [ path.resolve(__dirname, 'js', 'app.js') ],
+	entry: entry,
 	output: {
-		path: '/js/',
-		filename: 'app.js'
+		path: '/',
+		filename: '[name]'
 	},
 	module: {
 		rules: [
@@ -18,4 +25,3 @@ module.exports = {
 		]
 	}
 }
-
