@@ -6,34 +6,22 @@
     "test": "jest"
   },
   "dependencies": {
-    "express": "*",
-    "react": "*",
-    "react-dom": "*"
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "babel-core": "*",
-    "babel-jest": "*",
-    "babel-loader": "*",
-    "babel-preset-es2015": "*",
-    "babel-preset-react": "*",
-    "babel-preset-stage-0": "*",
-    "css-loader": "*",
-    "file-loader": "*",
-    "jest-cli": "*",
-    "react-addons-test-utils": "*",
-    "style-loader": "*",
-    "url-loader": "*",
-    "webpack": "*",
-    "webpack-dev-server": "*",
-    "glob": "*"
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/*"
-    ],
-    "modulePathIgnorePatterns": [
-      "<rootDir>/node_modules/"
-    ]
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "glob": "^7.1.4",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.3",
+    "webpack-dev-server": "^3.7.2"
   }
 }

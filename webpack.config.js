@@ -8,6 +8,7 @@ files.map(file=>{
 });
 
 module.exports = {
+	devtool: 'eval-source-map',
 	mode: 'development',
 	entry: entry,
 	output: {
