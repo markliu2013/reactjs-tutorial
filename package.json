@@ -8,7 +8,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
@@ -19,6 +21,7 @@
     "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
     "glob": "^7.1.4",
+    "redux-devtools": "^3.5.0",
     "style-loader": "^0.23.1",
     "url-loader": "^2.0.1",
     "webpack": "^4.35.3",

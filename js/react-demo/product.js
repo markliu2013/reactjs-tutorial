@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../css/style.css'
+import '../../css/style.css'
 
 function ProductCategoryRow(props) {
     return (<tr><th colSpan="2">{props.category}</th></tr>);
