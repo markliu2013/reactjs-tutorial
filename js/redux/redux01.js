@@ -1,3 +1,5 @@
+// Redux: Store Methods: getState(), dispatch(), and subscribe()
+
 import { createStore } from 'redux'
 
 /**
