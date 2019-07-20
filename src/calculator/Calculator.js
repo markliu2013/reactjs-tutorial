@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/calculator/Calculator.css';
+import './Calculator.css';
 
 
 const operatorToFix = 1000000;

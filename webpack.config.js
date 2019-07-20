@@ -2,7 +2,7 @@ import path from 'path';
 import glob from 'glob';
 
 let entry = {};
-const files = glob.sync("js/**/*.js");
+const files = glob.sync("src/**/*.js");
 files.map(file=>{
 	entry[file] = path.resolve(__dirname, file);
 });
