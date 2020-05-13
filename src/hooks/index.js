@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import { useState, useEffect } from "react";
 
-import Greeting2 from './Greeting2';
+import App from './App';
 
 ReactDOM.render(
-    <Greeting2 />,
+    <App />,
     document.getElementById('root')
 )
